@@ -2,7 +2,7 @@
 
 #variables
 
-#remote_user=ladmin
+remote_user=ladmin
 date=$(date| cut -d I -f1)
 
 
