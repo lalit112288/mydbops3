@@ -37,9 +37,9 @@ date=$(date| cut -d I -f1)
 #      echo "ssh backup ERROR"
 #      exit
 # fi
-cd /etc/ssh/
-git add .
-git commit -m "$date"
+#cd /etc/ssh/
+#git add .
+git commit -a -m "$date"
 #git remote add origin git@github.com:lalit112288/lalit.git
 #git push --set-upstream origin master
 git push
